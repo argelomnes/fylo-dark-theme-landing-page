@@ -1,8 +1,8 @@
 @import 'postcss/_breakpoints.css';
 @import 'postcss/_variables.css';
+@import 'postcss/_base.css';
 
-
-/* typography
+/* Typography
 --------------------------------------------------------------*/
 h1 {
     margin-bottom: 4.5rem;
@@ -25,3 +25,40 @@ h3 {
 p {
     margin-bottom: 3rem;
 }
+
+/* Elements
+--------------------------------------------------------------*/
+
+/* Forms
+--------------------------------------------------------------*/
+form {
+    background-color: var(--dark-blue-300);
+}
+/* Navigation
+--------------------------------------------------------------*/
+a {
+    text-decoration: none;
+}
+
+/* Layout
+--------------------------------------------------------------*/
+.grid {
+    display: grid;
+}
+
+main {
+    background-color: var(--dark-blue-300);
+}
+blockquote {
+    background-color: var(--dark-blue-100);
+}
+
+.main-footer {
+    background-color: var(--dark-blue-600);
+}
+
+/* Media
+--------------------------------------------------------------*/
+
+/* Forms
+--------------------------------------------------------------*/
