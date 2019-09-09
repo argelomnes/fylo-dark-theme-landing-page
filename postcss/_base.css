@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, .cta {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,13 @@
+:root {
+    --dark-blue-100: hsl(219, 30%, 18%);
+    --dark-blue-300: hsl(217, 28%, 15%);
+    --dark-blue-400: hsl(218, 28%, 13%);
+    --dark-blue-600: hsl(216, 53%, 9%);
+
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --grid-width: 1033px;
+}
