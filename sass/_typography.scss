@@ -1,0 +1,48 @@
+.btn,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    clear: both;
+
+    font-family: var(--font-sans-accent);
+    font-weight: 700;
+}
+
+h1 {
+    margin-bottom: 1.4rem;
+
+    font-size: 2.4rem;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+h2 {
+    margin-bottom: 1rem;
+
+    font-size: 1.8rem;
+    letter-spacing: -0.001rem;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 3rem;
+    letter-spacing: -0.1rem;
+    line-height: 1.3;
+}
+
+p {
+    margin-top: 0;
+}
+
+blockquote {
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: inherit;
+}

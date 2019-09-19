@@ -1,0 +1,90 @@
+.logo {
+    width: 8rem;
+
+    filter: var(--svg-white);
+
+    .site-footer & {
+        width: 17.6rem;
+        margin-bottom: 4.4rem;
+        margin-left: 1.9rem;
+    }
+
+    &:hover {
+        filter: var(--svg-cyan);
+    }
+
+    @media (--desktop) {
+        width: unset;
+    }
+}
+
+.icon-access {
+    width: 6.4rem;
+
+    @media (--desktop) {
+        width: unset;
+    }
+}
+
+.icon-security {
+    width: 5.7rem;
+
+    @media (--desktop) {
+        width: unset;
+    }
+}
+
+.icon-collaboration {
+    width: 6.8rem;
+
+    @media (--desktop) {
+        width: unset;
+    }
+}
+
+.icon-any-file {
+    width: 7.3rem;
+
+    @media (--desktop) {
+        width: unset;
+    }
+}
+
+.icon-arrow {
+    width: 1.4rem;
+    margin-top: 0.3rem;
+    margin-left: 0.6rem;
+
+    @media (--desktop) {
+        width: unset;
+    }
+}
+
+.quote {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 6px;
+
+    width: 2.4rem;
+}
+
+[class^='support-icon-'],
+.support-list--item-link {
+    filter: var(--svg-white);
+}
+
+.support-icon-location {
+    position: relative;
+    top: 3px;
+
+    width: 3.6rem;
+}
+
+.support-icon-phone {
+    width: 1.5rem;
+}
+
+.support-icon-email {
+    width: 2rem;
+}

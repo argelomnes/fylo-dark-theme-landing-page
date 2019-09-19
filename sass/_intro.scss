@@ -1,0 +1,41 @@
+.intro {
+    position: relative;
+
+    grid-column: 1;
+    grid-row: 2 / span 4;
+
+    padding-top: 3.3rem;
+
+    &-content {
+        display: grid;
+        position: relative;
+        z-index: 10;
+
+        grid-row-gap: 16px;
+        grid-template-columns: 0.2fr 2fr 2fr 2fr 0.2fr;
+    }
+
+    &-illustration {
+        grid-area: 1 / 2 / span 2 / span 3;
+
+        width: 30.5rem;
+    }
+
+    .text-wrap {
+        grid-area: 4 / 2 / span 3 / span 3;
+
+        max-width: 43.75rem;
+        margin: auto;
+    }
+
+    p {
+        padding: 0 0.625rem;
+
+        letter-spacing: 0.006rem;
+        line-height: 2.1rem;
+    }
+
+    .btn {
+        width: 76%;
+    }
+}

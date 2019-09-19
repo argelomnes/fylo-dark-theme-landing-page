@@ -1,0 +1,28 @@
+.features {
+    position: relative;
+
+    grid-column: 1;
+    grid-row: 4 / span 4;
+
+    padding-top: 35.3rem;
+
+    background-color: var(--darkblue-300);
+
+    &-content {
+        display: grid;
+
+        grid-row-gap: 86px;
+        grid-template-columns: repeat(auto-fit, minmax(33.6rem, 1fr));
+
+        max-width: 100%;
+        margin: auto;
+
+        h2 {
+            margin-top: 3.2rem;
+        }
+    }
+
+    .text-wrap {
+        padding: 0 0.9rem;
+    }
+}

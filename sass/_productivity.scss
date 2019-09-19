@@ -1,0 +1,11 @@
+.productivity {
+    padding-top: 13.7rem;
+
+    background-color: var(--darkblue-300);
+
+    &-content {
+        display: grid;
+
+        grid-gap: 5rem 2rem;
+    }
+}

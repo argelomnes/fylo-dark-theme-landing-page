@@ -1,0 +1,155 @@
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    background: var(--darkblue-200);
+
+    color: var(--white);
+    font-family: var(--font-sans);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.001rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+// media
+audio,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+    display: block;
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    border-style: none;
+}
+
+svg {
+    transition: fill 0.3s ease-in-out;
+
+    fill: currentColor;
+}
+
+figure {
+    margin: 1.6rem 0;
+}
+
+// lists
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 2.4rem;
+}
+
+// links
+a {
+    background-color: transparent;
+
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+// alignments
+.alignleft {
+    margin-right: 2.4rem;
+    float: left;
+}
+
+.alignright {
+    margin-left: 2.4rem;
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+
+    display: table;
+
+    table-layout: fixed;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// Hide visually and from screen readers
+.hidden {
+    display: none;
+}
+
+// Hide visually and from screen readers, but maintain layout
+.invisible {
+    visibility: hidden;
+}
+
+// Hide only visually, but have it available for screen readers
+.sr-only {
+    position: absolute;
+
+    width: 0.1rem;
+    height: 0.1rem;
+    margin: -0.1rem;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+
+    border: 0;
+
+    white-space: nowrap;
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+    position: static;
+
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+
+    white-space: inherit;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}

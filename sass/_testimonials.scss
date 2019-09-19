@@ -1,0 +1,56 @@
+.testimonials {
+    grid-row: 9 / span 4;
+
+    padding: 16rem 2.7rem;
+
+    background-color: var(--darkblue-300);
+
+    &-content {
+        display: grid;
+
+        grid-row-gap: 24px;
+    }
+
+    &-item {
+        position: relative;
+
+        margin: 0;
+        padding: 2.8rem 2rem 2.2rem;
+
+        border-radius: 7px;
+
+        background-color: var(--darkblue-100);
+
+        > p {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+.cite {
+    &-avatar {
+        max-width: 2.3rem;
+        margin-top: 0.3rem;
+        margin-right: 1rem;
+        float: left;
+
+        border-radius: 50%;
+    }
+
+    &-name {
+        margin-bottom: 0;
+
+        font-size: 1rem;
+        line-height: inherit;
+
+        strong {
+            display: block;
+
+            letter-spacing: 0.114rem;
+        }
+
+        span {
+            font-size: 1.56rem;
+        }
+    }
+}

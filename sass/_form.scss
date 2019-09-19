@@ -1,0 +1,28 @@
+.form {
+    display: grid;
+    position: relative;
+    z-index: 10;
+
+    grid-area: 13 / 1 / span 3 / 2;
+
+    &-content {
+        padding: 4.5rem 2.6rem;
+
+        border-radius: 10px;
+
+        background-color: var(--darkblue-200);
+        box-shadow: 0 1.8rem 2rem var(--transparent-black);
+
+        h2 {
+            margin-bottom: 1.7rem;
+        }
+    }
+}
+
+input[type='email'] {
+    padding: 0 2.9rem;
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
