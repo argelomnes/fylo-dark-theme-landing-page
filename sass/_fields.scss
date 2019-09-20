@@ -22,4 +22,8 @@ fieldset {
     padding: 0;
 
     border: 0;
+
+    @media (--desktop) {
+        margin-top: 0;
+    }
 }

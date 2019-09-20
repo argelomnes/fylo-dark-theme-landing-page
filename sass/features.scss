@@ -8,6 +8,11 @@
 
     background-color: var(--darkblue-300);
 
+    @media (--desktop) {
+        margin-top: -2.7rem;
+        padding-top: 0;
+    }
+
     &-content {
         display: grid;
 
@@ -17,9 +22,21 @@
         max-width: 100%;
         margin: auto;
 
+        @media (--desktop) {
+            grid-gap: 55px 120px;
+
+            width: 115.6rem;
+        }
+
         h2 {
             margin-top: 3.2rem;
         }
+    }
+
+    .features-item {
+        display: grid;
+
+        align-content: baseline;
     }
 
     .text-wrap {

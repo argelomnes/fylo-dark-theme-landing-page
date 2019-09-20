@@ -6,6 +6,10 @@
 
     padding-top: 3.3rem;
 
+    @media (--desktop) {
+        padding-top: 7.2rem;
+    }
+
     &-content {
         display: grid;
         position: relative;
@@ -19,6 +23,10 @@
         grid-area: 1 / 2 / span 2 / span 3;
 
         width: 30.5rem;
+
+        @media (--desktop) {
+            width: 72rem;
+        }
     }
 
     .text-wrap {
@@ -26,6 +34,11 @@
 
         max-width: 43.75rem;
         margin: auto;
+
+        @media (--desktop) {
+            max-width: 69rem;
+            margin-top: 0.4rem;
+        }
     }
 
     p {
@@ -33,9 +46,21 @@
 
         letter-spacing: 0.006rem;
         line-height: 2.1rem;
+
+        @media (--desktop) {
+            padding: 0 3.125rem;
+
+            font-size: 2rem;
+            letter-spacing: 0.004rem;
+            line-height: 2.9rem;
+        }
     }
 
     .btn {
         width: 76%;
+
+        @media (--desktop) {
+            width: 41%;
+        }
     }
 }

@@ -7,4 +7,8 @@
     flex-direction: column;
 
     padding-top: 11.7rem;
+
+    @media (--desktop) {
+        padding-top: 71.8rem;
+    }
 }

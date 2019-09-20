@@ -20,6 +20,10 @@ body {
     letter-spacing: 0.001rem;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
+
+    @media (--desktop) {
+        font-size: 1.6rem;
+    }
 }
 
 // media
@@ -56,6 +60,10 @@ ul {
 
 li {
     margin-bottom: 2.4rem;
+
+    @media (--desktop) {
+        margin-bottom: 1.7rem;
+    }
 }
 
 // links

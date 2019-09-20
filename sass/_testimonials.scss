@@ -5,10 +5,21 @@
 
     background-color: var(--darkblue-300);
 
+    @media (--desktop) {
+        padding-top: 17.6rem;
+    }
+
     &-content {
         display: grid;
 
         grid-row-gap: 24px;
+
+        @media (--desktop) {
+            grid-column-gap: 36px;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            max-width: 1324px;
+        }
     }
 
     &-item {
@@ -23,6 +34,17 @@
 
         > p {
             font-size: 1.3rem;
+        }
+
+        @media (--desktop) {
+            padding: 4rem 2.7rem 2.7rem;
+
+            > p {
+                margin-bottom: 2.3rem;
+
+                font-size: 1.5rem;
+                line-height: 1.4;
+            }
         }
     }
 }

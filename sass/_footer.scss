@@ -9,14 +9,28 @@
 
     font-size: 1.6rem;
 
+    @media (--desktop) {
+        padding-top: 26.7rem;
+    }
+
     ul {
         padding-left: 1rem;
+    }
+
+    .grid {
+        grid-template-columns: 5fr 1fr 1fr 1.25fr;
     }
 }
 
 .support-list {
+    display: grid;
+
     grid-column: 1;
+    grid-column-gap: 60px;
     grid-row: 1;
+    grid-template-columns: 1.5fr 1fr;
+
+    margin-left: 2.8rem;
 
     &-item {
         display: flex;
@@ -41,6 +55,10 @@
 
     &-link {
         padding-left: 1.9rem;
+
+        @media (--desktop) {
+            font-size: 1.5rem;
+        }
     }
 
     &-text:hover + [class^='support-icon-'] {
@@ -51,11 +69,29 @@
 .about-nav {
     grid-column: 1;
     grid-row: 2;
+
+    @media (--desktop) {
+        grid-column: 2;
+        grid-row: 1;
+    }
 }
 
 .legal-nav {
     grid-column: 1;
     grid-row: 3;
+
+    @media (--desktop) {
+        grid-column: 3;
+        grid-row: 1;
+    }
+}
+
+@media (--desktop) {
+    .about-nav li,
+    .legal-nav li {
+        margin-bottom: 1.5rem;
+        padding-left: 3rem;
+    }
 }
 
 .site-footer .social {
@@ -67,8 +103,20 @@
     margin: 7.6rem auto 2rem;
     padding-left: 0;
 
+    @media (--desktop) {
+        grid-column: 4;
+        grid-row: 1;
+
+        margin-top: 1.8rem;
+        margin-right: 0;
+    }
+
     li:not(:first-child) {
         margin-left: 0.9rem;
+
+        @media (--desktop) {
+            margin-left: 1.2rem;
+        }
     }
 
     &-icon {

@@ -5,7 +5,12 @@
 
     grid-area: 13 / 1 / span 3 / 2;
 
+    @media (--desktop) {
+        padding-top: 3.7rem;
+    }
+
     &-content {
+        max-width: 866px;
         padding: 4.5rem 2.6rem;
 
         border-radius: 10px;
@@ -13,9 +18,38 @@
         background-color: var(--darkblue-200);
         box-shadow: 0 1.8rem 2rem var(--transparent-black);
 
+        @media (--desktop) {
+            padding: 4.5rem 7.6rem 1.7rem;
+        }
+
         h2 {
             margin-bottom: 1.7rem;
+
+            @media (--desktop) {
+                font-size: 3.2rem;
+            }
         }
+
+        p {
+            @media (--desktop) {
+                padding: 0.4rem 2.4rem;
+
+                font-size: 1.5rem;
+                letter-spacing: -0.043rem;
+                line-height: 1.4;
+            }
+        }
+    }
+}
+
+.sign-up {
+    @media (--desktop) {
+        display: grid;
+
+        grid-column-gap: 28px;
+        grid-template-columns: 3fr 1.25fr;
+
+        margin-top: 3.5rem;
     }
 }
 
